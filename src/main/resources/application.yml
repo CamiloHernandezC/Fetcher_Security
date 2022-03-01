@@ -3,3 +3,11 @@ spring:
         url: jdbc:mysql://localhost:3306/wookie_books
         username: wookie
         password: wookie_books
+    jpa:
+        generate-ddl: true
+jwt:
+    secret: 293D66AE74131FEAABCC5CC02DD82E1ABE48C1FAE5D8ACDF51AA073E281441F4
+    token:
+        expiration_time: 600000
+    refresh_token:
+        expiration_time: 86400000
